@@ -23,7 +23,6 @@ def make_parse():
 
 #---->main
 def main(cfg):
-
     #---->Initialize seed
     pl.seed_everything(cfg.General.seed)
 
@@ -57,8 +56,9 @@ def main(cfg):
         logger=cfg.load_loggers,
         callbacks=cfg.callbacks,
         max_epochs= cfg.General.epochs,
-        gpus=cfg.General.gpus,
-        amp_level=cfg.General.amp_level,  
+        gpus=1, 
+        accelerator="gpu",
+        amp_backend='native',
         precision=cfg.General.precision,  
         accumulate_grad_batches=cfg.General.grad_acc,
         deterministic=True,

@@ -1,0 +1,25 @@
+Global seed set to 2021
+/home/ofourkioti/.conda/envs/torch-gpu/lib/python3.7/site-packages/torchmetrics/utilities/prints.py:36: UserWarning: Metric `AUROC` will save all targets and predictions in buffer. For large datasets this may lead to large memory footprint.
+  warnings.warn(*args, **kwargs)
+/home/ofourkioti/.conda/envs/torch-gpu/lib/python3.7/site-packages/deprecate/deprecation.py:115: FutureWarning: The `F1` was deprecated since v0.7 in favor of `torchmetrics.classification.f_beta.F1Score`. It will be removed in v0.8.
+  stream(template_mgs % msg_args)
+Using 16bit native Automatic Mixed Precision (AMP)
+GPU available: True, used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+/home/ofourkioti/.conda/envs/torch-gpu/lib/python3.7/site-packages/pytorch_lightning/trainer/configuration_validator.py:144: LightningDeprecationWarning: The `LightningModule.get_progress_bar_dict` method was deprecated in v1.5 and will be removed in v1.7. Please use the `ProgressBarBase.get_metrics` instead.
+  "The `LightningModule.get_progress_bar_dict` method was deprecated in v1.5 and will be removed in v1.7."
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+/home/ofourkioti/.conda/envs/torch-gpu/lib/python3.7/site-packages/pytorch_lightning/loggers/csv_logs.py:58: UserWarning: Experiment logs directory logs/Camelyon/TransMIL/fold0 exists and is not empty. Previous log files in this directory will be deleted when the new ones are saved!
+  f"Experiment logs directory {self.log_dir} exists and is not empty."
+/home/ofourkioti/.conda/envs/torch-gpu/lib/python3.7/site-packages/pytorch_lightning/loggers/tensorboard.py:251: UserWarning: Could not log computational graph since the `model.example_input_array` attribute is not set or `input_array` was not given
+  UserWarning,
+/home/ofourkioti/.conda/envs/torch-gpu/lib/python3.7/site-packages/pytorch_lightning/core/saving.py:391: UserWarning: Skipping 'cfg' parameter because it is not possible to safely dump to YAML.
+  warn(f"Skipping '{k}' parameter because it is not possible to safely dump to YAML.")
+/home/ofourkioti/.conda/envs/torch-gpu/lib/python3.7/site-packages/torch/utils/data/dataloader.py:481: UserWarning: This DataLoader will create 8 worker processes in total. Our suggested max number of worker in current system is 6, which is smaller than what this DataLoader is going to create. Please be aware that excessive worker creation might get DataLoader running slow or even freeze, lower the worker number to avoid potential slowness/freeze if necessary.
+  cpuset_checked))
+/home/ofourkioti/.conda/envs/torch-gpu/lib/python3.7/site-packages/pytorch_lightning/core/datamodule.py:470: LightningDeprecationWarning: DataModule.setup has already been called, so it will not be called again. In v1.6 this behavior will change to always call DataModule.setup.
+  f"DataModule.{name} has already been called, so it will not be called again. "
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+/home/ofourkioti/.conda/envs/torch-gpu/lib/python3.7/site-packages/pytorch_lightning/core/datamodule.py:470: LightningDeprecationWarning: DataModule.teardown has already been called, so it will not be called again. In v1.6 this behavior will change to always call DataModule.teardown.
+  f"DataModule.{name} has already been called, so it will not be called again. "
