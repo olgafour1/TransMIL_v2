@@ -14,7 +14,7 @@ conda activate torch-gpu
 cd /home/ofourkioti/Projects/TransMIL_v2/
 
 #python train.py --stage='train' --config='Camelyon/TransMIL.yaml'  --gpus=0 --fold=3
-python train.py --stage='train' --config='tcga/TransMIL.yaml'  --gpus=0 --fold=0
+python train.py --stage='test' --config='tcga/TransMIL.yaml'  --gpus=0 --fold=0
 
 
 
