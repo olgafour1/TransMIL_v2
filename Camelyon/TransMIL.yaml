@@ -17,7 +17,7 @@ Data:
     dataset_name: camel_data
     data_shuffle: False
     data_dir: /data/scratch/DBI/DUDBI/DYNCESYS/OlgaF/multi_magnification_project/20x_mag/pt_files/
-    label_dir: /home/ofourkioti/Projects/TransMIL/dataset_csv/camelyon16/
+    label_dir: /home/ofourkioti/Projects/TransMIL_v2/dataset_csv/camelyon16/
     fold: 0
     nfold: 1
 
