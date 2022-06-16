@@ -16,10 +16,10 @@ General:
 Data:
     dataset_name: camel_data
     data_shuffle: False
-    data_dir: /data/scratch/DBI/DUDBI/DYNCESYS/OlgaF/TCGA_data/TCGA_features/pt_files/
-    label_dir: dataset_csv/tcga/
+    data_dir: /data/scratch/DBI/DUDBI/DYNCESYS/OlgaF/multi_magnification_project/20x_mag/pt_files/
+    label_dir: /home/ofourkioti/Projects/TransMIL/dataset_csv/camelyon16/
     fold: 0
-    nfold: 4
+    nfold: 1
 
     train_dataloader:
         batch_size: 1
