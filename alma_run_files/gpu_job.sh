@@ -1,6 +1,6 @@
 #!/bin/bash
 #SBATCH --job-name=test_gpu
-#SBATCH --output=/home/ofourkioti/Projects/TransMIL_v2/results/fold3.txt
+#SBATCH --output=/home/ofourkioti/Projects/TransMIL_v2/results/camelyon_train.txt
 #SBATCH --error=/home/ofourkioti/Projects/TransMIL_v2/results/test.err
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=6
