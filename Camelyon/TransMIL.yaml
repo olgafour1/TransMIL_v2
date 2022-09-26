@@ -16,8 +16,8 @@ General:
 Data:
     dataset_name: camel_data
     data_shuffle: False
-    data_dir: /data/scratch/DBI/DUDBI/DYNCESYS/OlgaF/multi_magnification_project/20x_mag/features/pt_files/
-    label_dir: /home/ofourkioti/Projects/TransMIL_v2/dataset_csv/camelyon16/
+    data_dir: /data/scratch/DBI/DUDBI/DYNCESYS/OlgaF/ovarian_cancer/tf_features/pt_files/
+    label_dir: /home/admin_ofourkioti/PycharmProjects/TransMIL_v2/dataset_csv/ovarian/
     fold: 0
     nfold: 1
 
@@ -32,7 +32,6 @@ Data:
 Model:
     name: TransMIL
     n_classes: 2
-
 
 Optimizer:
     opt: lookahead_radam
