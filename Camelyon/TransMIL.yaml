@@ -17,7 +17,7 @@ Data:
     dataset_name: camel_data
     data_shuffle: False
     data_dir: /data/scratch/DBI/DUDBI/DYNCESYS/OlgaF/ovarian_cancer/tf_features/pt_files/
-    label_dir: /home/admin_ofourkioti/PycharmProjects/TransMIL_v2/dataset_csv/ovarian/
+    label_dir: dataset_csv/ovarian/
     fold: 0
     nfold: 1
 
