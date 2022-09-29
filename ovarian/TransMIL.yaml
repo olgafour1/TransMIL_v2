@@ -16,8 +16,8 @@ General:
 Data:
     dataset_name: camel_data
     data_shuffle: False
-    data_dir: /data/scratch/DBI/DUDBI/DYNCESYS/OlgaF/camelyon_data/camelyon_features/tumor_vs_normal_resnet_features/pt_files/
-    label_dir: dataset_csv/camelyon16/
+    data_dir: /data/scratch/DBI/DUDBI/DYNCESYS/OlgaF/ovarian_cancer/features/torch_features/pt_files/
+    label_dir: dataset_csv/ovarian/
     fold: 0
     nfold: 1
 
