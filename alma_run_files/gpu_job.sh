@@ -1,7 +1,7 @@
 #!/bin/bash
 #SBATCH --job-name=test_gpu
-#SBATCH --output=/home/ofourkioti/Projects/TransMIL_v2/results/ovarian_results.txt
-#SBATCH --error=/home/ofourkioti/Projects/TransMIL_v2/results/test.err
+#SBATCH --output=/home/ofourkioti/Projects/TransMIL_v2/results/ovarian_train.txt
+#SBATCH --error=/home/ofourkioti/Projects/TransMIL_v2/results/error.err
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=6
 #SBATCH --time=08:00:00
